@@ -1,0 +1,28 @@
+{
+  "name": "telnyx_cypress",
+  "version": "1.0.0",
+  "description": "Testing the Telnyx site by cypress",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cypress:open": "node_modules\\.bin\\cypress open",
+    "cypress:run": "node_modules\\.bin\\cypress run",
+    "cypress:run:chrome": "node_modules\\.bin\\cypress run --browser chrome",
+    "cypress:run:firefox": "node_modules\\.bin\\cypress run --browser firefox"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lvansav/telnyx_testing_cypress.git"
+  },
+  "author": "lvan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lvansav/telnyx_testing_cypress/issues"
+  },
+  "homepage": "https://github.com/lvansav/telnyx_testing_cypress#readme",
+  "devDependencies": {
+    "cypress": "^10.6.0",
+    "cypress-real-events": "^1.7.1",
+    "faker": "^6.6.6"
+  }
+}
