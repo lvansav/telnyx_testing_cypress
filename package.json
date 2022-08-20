@@ -23,6 +23,6 @@
   "devDependencies": {
     "cypress": "^10.6.0",
     "cypress-real-events": "^1.7.1",
-    "faker": "^6.6.6"
+    "faker": "^5.5.3"
   }
 }
