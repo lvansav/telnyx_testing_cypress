@@ -21,8 +21,8 @@
   },
   "homepage": "https://github.com/lvansav/telnyx_testing_cypress#readme",
   "devDependencies": {
+    "@faker-js/faker": "^7.4.0",
     "cypress": "^10.6.0",
-    "cypress-real-events": "^1.7.1",
-    "faker": "^5.5.3"
+    "cypress-real-events": "^1.7.1"
   }
 }
