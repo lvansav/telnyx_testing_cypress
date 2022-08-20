@@ -4,11 +4,11 @@
   "description": "Testing the Telnyx site by cypress",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "cypress:open": "node_modules\\.bin\\cypress open",
-    "cypress:run": "node_modules\\.bin\\cypress run",
-    "cypress:run:chrome": "node_modules\\.bin\\cypress run --browser chrome",
-    "cypress:run:firefox": "node_modules\\.bin\\cypress run --browser firefox"
+    "test": "cypress run",
+    "cypress:open": "cypress open",
+    "cypress:run": "cypress run",
+    "cypress:run:chrome": "cypress run --browser chrome",
+    "cypress:run:firefox": "cypress run --browser firefox"
   },
   "repository": {
     "type": "git",
