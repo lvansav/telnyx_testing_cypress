@@ -1,4 +1,4 @@
-import { faker } from '@faker-js/faker'
+const { faker }= require('@faker-js/faker')
 const Header = require('./header')
 const SignUpPage = require('./sign.up.page')
 const ContactUsPage = require('./contact.us.page')

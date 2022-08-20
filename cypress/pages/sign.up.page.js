@@ -1,5 +1,5 @@
+const { faker }= require('@faker-js/faker')
 const VerifyEmailPage = require('./verify.email.page')
-import { faker } from '@faker-js/faker'
 
 
 class SignUpPage {
